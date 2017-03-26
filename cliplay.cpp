@@ -1,8 +1,8 @@
 /************************************************
- * Autor: Wesley Smitthe						*
+ * Autor: Wesley Smitthe			*			*
  * Descrição: Reprodutor de áudio CLI usando SDL* 
- * Linguagem: C									*
- * Data:  X/12/2016								*
+ * Linguagem: C					*				*
+ * Data:  X/12/2016				*				*
  * **********************************************/
 
 /// Headers
@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 	Mix_Music *musica;	       ///  Cria a instacia para receber a musica
 
 
-	/// 			44100	 AUDIO_S16_SYS    2     4096
+	/// 		44100	 AUDIO_S16_SYS    2     4096
 	Mix_OpenAudio(frequencia,   formato,    canal, buffer);
 
 
